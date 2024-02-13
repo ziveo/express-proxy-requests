@@ -1,0 +1,21 @@
+{
+  "name": "express-proxy-requests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev",
+    "start": "turbo run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^1.12.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
